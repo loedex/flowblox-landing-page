@@ -1,3 +1,16 @@
+/* Ensure the logo is perfectly centered by giving left and right sections equal width */
+@media (min-width: 768px) {
+    .first-link-set, .second-link-set {
+        flex: 1; /* Instructs both containers to take exactly the same amount of space */
+    }
+    .first-link-set {
+        justify-content: flex-start !important;
+    }
+    .second-link-set {
+        justify-content: flex-end !important;
+    }
+}
+
 @media(max-width:767px) {
     .colab {
         border-right: none;
