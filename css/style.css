@@ -191,7 +191,7 @@ body,
 html {
     background: var(--bg-main);
     color: var(--text-primary);
-    overflow-x: hidden;
+    overflow-x: clip; 
 }
 
 /* ── Frosted Glass Navbar ── */
@@ -201,7 +201,7 @@ html {
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border);
     box-shadow: 0 1px 0 rgba(139, 92, 246, 0.12), 0 4px 24px rgba(0, 0, 0, 0.4);
-    position: sticky;
+    position: sticky ;
     top: 0;
     z-index: 100;
 }
@@ -221,6 +221,8 @@ html {
     font-weight: normal;
     letter-spacing: -0.9px;
 }
+
+
 
 
 /* ── Logo ── */
