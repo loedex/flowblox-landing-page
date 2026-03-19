@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <title>Floxblox</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Rashi+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md px-2 px-md-0">
+        <div class="container-fluid d-flex justify-content-between">
+            <p class="navbar-brand logo d-block d-md-none" id="firstLogo">Flowblox</p>
+
+            <button class="navbar-toggler border-0 shadow-none px-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navBarContent"><i class="bi bi-list fs-1" id="listIcon"></i></button>
+
+            <div id="navBarContent"
+                class="collapse navbar-collapse d-md-flex justify-content-between w-100 align-items-center">
+                <div
+                    class="first-link-set d-flex flex-column flex-md-row align-items-center justify-content-evenly gap-2 gap-md-3">
+                    <a href="#" class="text-decoration-none text-dark " id="navLink">Services</a>
+                    <a href="#" class="text-decoration-none text-dark" id="navLink">Features</a>
+                    <a href="#" class="text-decoration-none text-dark" id="navLink">Blog</a>
+                </div>
+                <p class="navbar-brand logo d-md-block d-none" id="secondLogo">Flowblox</p>
+                <div
+                    class="second-link-set d-flex flex-column flex-md-row mt-2 mt-md-0 align-items-center justify-content-evenly gap-2 gap-md-3">
+                    <a href="#" class="text-decoration-none text-dark" id="navLink">About</a>
+                    <a href="#" class="text-decoration-none text-dark" id="navLink">Contact</a>
+                    <button class="border-0 bg-dark text-white px-3 py-2 px-md-3 py-md-2 rounded-pill d-md-block d-none"
+                        id="startedBtn">Get started <i class="bi bi-arrow-right-circle-fill"></i></button>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+    <div class="first-hero w-100 d-flex flex-column align-items-center text-center px-3">
+        <p class="m-0" id="p01">Streamline Your Team,</p>
+        <p class="m-0" id="p02">Supercharge your workflow</p>
+        <p class="m-0 text-muted" id="p03">All in one platform to plan, collaorate</p>
+        <p class="m-0 text-muted" id="p04">and deliver - faster and smarter</p>
+        <button
+            class="hero-btn border-0 bg-dark text-white px-3 py-3 rounded-pill d-flex align-items-center justify-content-between gap-2"
+            id="startedBtn2">Get started for free<i class="bi bi-arrow-right-circle-fill  fs-5"></i></button>
+    </div>
+
+
+    <div class="container-fluid position-relative">
+        <div class="fade-left"></div>
+        <div class="fade-right"></div>
+
+        <button id="prevBtn" class="nav-btn position-absolute top-50 start-0 translate-middle-y ms-2 ms-md-4">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6" />
+            </svg>
+        </button>
+
+
+        <div class="d-flex justify-content-center align-items-center gallery-container " id="galleryTrack">
+            <img src="images/9 (1).jpg" alt="Person 1" class="gallery-card card-1">
+            <img src="images/10 (2).jpg" alt="Person 2" class="gallery-card card-2">
+            <img src="images/you.png" alt="Person 3" class="gallery-card card-3">
+            <img src="images/me.png" alt="Person 4" class="gallery-card card-4">
+            <img src="images/11 (1).webp" alt="Person 5" class="gallery-card card-5">
+            <img src="images/10 (1).jpg" alt="Person 6" class="gallery-card card-6">
+            <img src="images/10.jpg" alt="Person 7" class="gallery-card card-7">
+        </div>
+        <button id="nextBtn" class="nav-btn position-absolute top-50 end-0 translate-middle-y me-2 me-md-4">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6" />
+            </svg>
+        </button>
+    </div>
+
+
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center">
+        <div class="colab px-5 mb-3 mb-md-0">
+            <p class="heading text-center">Real-Time Collaboration</p>
+            <p class="text text-center text-muted">Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit. Harum
+                <br> reprehen</p>
+        </div>
+        <div class="track px-5 mb-3 mb-md-0">
+            <p class="heading text-center">Task & Project Tracking</p>
+            <p class="text text-center text-muted">Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit. Harum
+                <br> reprehen</p>
+        </div>
+        <div class="insight px-5">
+            <p class="heading text-center">Performance Insights</p>
+            <p class="text text-center text-muted">Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit. Harum
+                <br> reprehen</p>
+        </div>
+    </div>
+
+    <div class="section d-flex flex-column align-items-center justify-content-center px-3">
+        <p class="section-heading text-center mb-2">Everything Your Team Needs to Work Smarter</p>
+        <p class="section-text text-center text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+            Perspiciatis volupt</p>
+    </div>
+
+
+    <div class="grid-container">
+        <div class="Card Big">
+            <img src="images/A.jpg" alt="TeamWork">
+            <div class="overlay ">
+                <p>Built-in Team Chat</p>
+                <p>Communicate instantly within projects - no need to switch apps</p>
+
+            </div>
+        </div>
+        <div class="Card Small">
+            <div class="overlay  ">
+                <p>Task Assignment</p>
+                <p>Easily create, assign and track tasks to keep everyone aligned and accountable</p>
+            </div>
+        </div>
+        <div class="Card Small">
+            <div class="overlay ">
+                <p>Real-Time Scheduling</p>
+                <p>Plan meetings, set deadlines, and sync calendars so your team stays on the same page.</p>
+            </div>
+        </div>
+        <div class="Card Big">
+            <img src="images/8 (3).jpg" alt="TeamWork">
+            <div class="overlay ">
+                <p>Progress Tracking</p>
+                <p>Visualize team performance with dashboards that highlight</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="site-footer">
+
+        <!-- Animated gradient top border -->
+        <div class="footer-glow-bar"></div>
+
+        <div class="footer-inner">
+
+            <!-- ── Top: Brand + Links + Newsletter ── -->
+            <div class="footer-grid">
+
+                <!-- Brand Column -->
+                <div class="footer-col footer-brand-col">
+                    <p class="footer-logo">Flowblox</p>
+                    <span class="footer-status-badge">
+                        <span class="status-dot"></span> All systems operational
+                    </span>
+                    <p class="footer-tagline">All-in-one platform to plan,<br>collaborate and deliver — faster.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-btn" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-btn" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="#" class="social-btn" aria-label="Discord"><i class="bi bi-discord"></i></a>
+                    </div>
+                </div>
+
+                <!-- Link Columns Group -->
+                <div class="footer-links-group">
+
+                    <!-- Product Links -->
+                    <div class="footer-col">
+                        <p class="footer-col-heading">Product</p>
+                        <ul class="footer-links">
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Changelog</a></li>
+                            <li><a href="#">Roadmap</a></li>
+                            <li><a href="#">Integrations</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Company Links -->
+                    <div class="footer-col">
+                        <p class="footer-col-heading">Company</p>
+                        <ul class="footer-links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Resources Links -->
+                    <div class="footer-col">
+                        <p class="footer-col-heading">Resources</p>
+                        <ul class="footer-links">
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">API Reference</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Status</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- Newsletter Column -->
+                <div class="footer-col footer-newsletter-col">
+                    <p class="footer-col-heading">Stay in the loop</p>
+                    <p class="footer-newsletter-desc">Product updates, tips and early access — straight to your inbox. No spam, unsubscribe anytime.</p>
+                    <div class="footer-input-row">
+                        <input type="email" placeholder="Example@email.com" class="footer-input" />
+                        <p class="footer-input-note footer-input-note-1 d-none"><i class="bi bi-shield-lock-fill"></i> We never share your email.</p>
+                        <button class="footer-subscribe-btn">
+                            Subscribe <i class="bi bi-arrow-right-circle-fill"></i>
+                        </button>
+                    </div>
+                    <p class="footer-input-note"><i class="bi bi-shield-lock-fill"></i> We never share your email.</p>
+                </div>
+
+            </div>
+
+          
+            <div class="footer-divider"></div>
+
+            
+            <div class="footer-bottom">
+                <p class="footer-copy">© 2026 Flowblox, Inc. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/logic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
